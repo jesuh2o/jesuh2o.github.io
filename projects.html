@@ -1,19 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Projects</title>
+    <meta charset="UTF-8">
+    <title>Projects | Jessnel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Projects</h1>
+    <header class="site-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">Jessnel</a>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link active">Projects</a>
+                <a href="resume.html" class="nav-link">Resume</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle Theme">🌙</button>
+            </nav>
+        </div>
     </header>
+
     <main class="container fade-in">
-        <div class="card">📘 Curriculum Planner</div>
-        <div class="card">🤖 Local AI Playground</div>
+        <h1 class="page-title">📘 Projects</h1>
+        <p class="lead-text">A collection of things I have built or am currently developing.</p>
+
+        <div class="projects-grid">
+            <div class="card project-card">
+                <div class="card-icon">📘</div>
+                <h3 class="card-title">Curriculum Planner</h3>
+                <p class="card-description">An automated application designed to organize, manage, and optimize academic curriculum progression.</p>
+                <div class="card-tags">
+                    <span>Java</span>
+                    <span>Algorithms</span>
+                </div>
+            </div>
+
+            <div class="card project-card">
+                <div class="card-icon">🤖</div>
+                <h3 class="card-title">Local AI Playground</h3>
+                <p class="card-description">A lightweight UI for executing and experimenting with LLMs locally using WebGPU and native backends.</p>
+                <div class="card-tags">
+                    <span>Python</span>
+                    <span>WebGPU</span>
+                    <span>AI</span>
+                </div>
+            </div>
+        </div>
     </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Jessnel. Made with passion.</p>
+    </footer>
     <script src="js/main.js"></script>
 </body>
 

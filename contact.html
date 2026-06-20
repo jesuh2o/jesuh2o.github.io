@@ -1,19 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Contact</title>
+    <meta charset="UTF-8">
+    <title>Contact | Jessnel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Contact</h1>
+    <header class="site-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">Jessnel</a>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="resume.html" class="nav-link">Resume</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle Theme">🌙</button>
+            </nav>
+        </div>
     </header>
+
     <main class="container fade-in">
-        <p>Email: ajessnel@gmail.com</p>
-        <p>GitHub: jesuh2o</p>
+        <h1 class="page-title">✉️ Contact</h1>
+        <p class="lead-text">Get in touch! Feel free to reach out for collaborations or inquiries.</p>
+
+        <div class="contact-grid">
+            <a href="mailto:ajessnel@gmail.com" class="card contact-card">
+                <div class="card-icon">✉️</div>
+                <h3 class="card-title">Email</h3>
+                <p class="card-value">ajessnel@gmail.com</p>
+                <span class="card-link-hint">Send an email &rarr;</span>
+            </a>
+
+            <a href="https://github.com/jesuh2o" target="_blank" rel="noopener noreferrer" class="card contact-card">
+                <div class="card-icon">💻</div>
+                <h3 class="card-title">GitHub</h3>
+                <p class="card-value">github.com/jesuh2o</p>
+                <span class="card-link-hint">Visit GitHub &rarr;</span>
+            </a>
+        </div>
     </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Jessnel. Made with passion.</p>
+    </footer>
     <script src="js/main.js"></script>
 </body>
 

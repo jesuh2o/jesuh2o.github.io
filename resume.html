@@ -1,18 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Resume</title>
+    <meta charset="UTF-8">
+    <title>Resume | Jessnel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Resume</h1>
+    <header class="site-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">Jessnel</a>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="resume.html" class="nav-link active">Resume</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle Theme">🌙</button>
+            </nav>
+        </div>
     </header>
+
     <main class="container fade-in">
-        <p>Goal: Machine Learning Specialist</p>
+        <h1 class="page-title">📄 Resume</h1>
+        <p class="lead-text">My career objectives, education, and professional path.</p>
+
+        <section class="resume-section">
+            <h2 class="section-title">🎯 Professional Goal</h2>
+            <div class="card focus-card">
+                <p>To establish myself as a <strong>Machine Learning Specialist</strong>, building intelligent solutions, integrating complex AI pipelines, and solving hard analytical challenges.</p>
+            </div>
+        </section>
+
+        <section class="resume-section">
+            <h2 class="section-title">🎓 Education & Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Present</span>
+                        <h3 class="timeline-title">AI & Web Developer (Independent Project Exploration)</h3>
+                        <p class="timeline-text">Building web-integrated AI apps and exploring local model pipelines using Python and Java.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023 - 2025</span>
+                        <h3 class="timeline-title">Computer Science & AI Studies</h3>
+                        <p class="timeline-text">Focused on algorithms, data structures, neural networks, and modern system architectures.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Jessnel. Made with passion.</p>
+    </footer>
     <script src="js/main.js"></script>
 </body>
 

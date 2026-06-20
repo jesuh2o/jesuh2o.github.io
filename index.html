@@ -9,31 +9,46 @@
 </head>
 
 <body>
-    <header>
-        <h1>Jessnel</h1>
-        <nav>
-            <a href="index.html">About</a>
-            <a href="projects.html">Projects</a>
-            <a href="resume.html">Resume</a>
-            <a href="contact.html">Contact</a>
-            <button id="themeToggle">🌙</button>
-        </nav>
+    <header class="site-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">Jessnel</a>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link active">About</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="resume.html" class="nav-link">Resume</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle Theme">🌙</button>
+            </nav>
+        </div>
     </header>
 
     <main class="container fade-in">
-        <h2>👋 About Me</h2>
-        <p>I’m <strong>Jessnel</strong>, exploring AI, Machine Learning, and Web Development.</p>
+        <section class="hero-section">
+            <h1 class="page-title">👋 About Me</h1>
+            <p class="lead-text">I’m <strong>Jessnel</strong>, exploring AI, Machine Learning, and Web Development.</p>
+        </section>
 
-        <h3>🛠 Tech Stack</h3>
-        <div class="skills">
-            <span>HTML</span><span>CSS</span><span>Java</span>
-            <span>Python</span><span>Machine Learning</span>
-        </div>
+        <section class="stack-section">
+            <h2 class="section-title">🛠 Tech Stack</h2>
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Java</span>
+                <span>Python</span>
+                <span>Machine Learning</span>
+            </div>
+        </section>
 
-        <blockquote>“Stay hungry, stay foolish.”</blockquote>
+        <section class="quote-section">
+            <blockquote class="styled-quote">
+                “Stay hungry, stay foolish.”
+            </blockquote>
+        </section>
     </main>
 
-    <footer>© 2026 Jessnel</footer>
+    <footer class="site-footer">
+        <p>© 2026 Jessnel. Made with passion.</p>
+    </footer>
     <script src="js/main.js"></script>
 </body>
 
